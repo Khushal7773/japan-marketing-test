@@ -50,7 +50,7 @@ const container = document.getElementById("root");
 const root = createRoot(container!);
 
 // Determine the basename based on the environment
-const basename = process.env.NODE_ENV === "development" ? "/" : "/japan-marketing";
+const basename = process.env.NODE_ENV === "development" ? "/" : "/japan-marketing-test";
 
 root.render(
   <BrowserRouter basename={basename}>
