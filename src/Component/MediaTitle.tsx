@@ -1,5 +1,7 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import avatar9 from "../assets/avatar9.png";
+import icon01 from "../assets/-icon1.png";
 
 const MediaTitle: FunctionComponent = () => {
     return(
@@ -9,7 +11,7 @@ const MediaTitle: FunctionComponent = () => {
                   <img
                     className={styles.maskedicon}
                     alt=""
-                    src="../../public/avatar9.png"
+                    src={avatar9}
                   />
                 </div>
                 <div className={styles.label8}>
@@ -19,7 +21,7 @@ const MediaTitle: FunctionComponent = () => {
                   <img
                     className={styles.icon19}
                     alt=""
-                    src="../../public/-icon1.png"
+                    src={icon01}
                   />
                 </div>
               </div>

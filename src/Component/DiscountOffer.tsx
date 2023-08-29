@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import localOffer from "../assets/local-offer.png";
 
 const DiscountOffer: FunctionComponent = () => {
     return(
@@ -8,7 +9,7 @@ const DiscountOffer: FunctionComponent = () => {
                 <img
                   className={styles.localOfferIcon}
                   alt=""
-                  src="../../public/local-offer.png"
+                  src={localOffer}
                 />
                 <div className={styles.div15}>
                   シーズン限定メニュー

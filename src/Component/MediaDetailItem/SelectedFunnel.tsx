@@ -1,5 +1,12 @@
 import { FunctionComponent } from "react";
 import styles from "../../StyleSheets/K10.module.css";
+import avatar10 from "../../assets/avatar10.png";
+import iconN from "../../assets/-icon.png";
+import avatar11 from "../../assets/avatar11.png";
+import avatar12 from "../../assets/avatar12.png";
+import avatar13 from "../../assets/avatar13.png";
+import avatar14 from "../../assets/avatar14.png";
+import avatar15 from "../../assets/avatar15.png";
 
 const SelectedFunnel: FunctionComponent = () => {
     return (
@@ -13,7 +20,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar10.png"
+                  src={avatar10}
                 />
               </div>
               <label className={styles.label}>
@@ -23,7 +30,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>
@@ -34,7 +41,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar11.png"
+                  src={avatar11}
                 />
               </div>
               <label className={styles.label}>
@@ -44,7 +51,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>
@@ -55,7 +62,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar12.png"
+                  src={avatar12}
                 />
               </div>
               <div className={styles.label8}>
@@ -65,7 +72,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>
@@ -74,7 +81,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar13.png"
+                  src={avatar13}
                 />
               </div>
               <div className={styles.label8}>
@@ -86,7 +93,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>
@@ -97,7 +104,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar14.png"
+                  src={avatar14}
                 />
               </div>
               <div className={styles.label8}>
@@ -107,7 +114,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>
@@ -118,7 +125,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../../public/avatar15.png"
+                  src={avatar15}
                 />
               </div>
               <label className={styles.label}>
@@ -128,7 +135,7 @@ const SelectedFunnel: FunctionComponent = () => {
                 <img
                   className={styles.icon19}
                   alt=""
-                  src="../../../public/-icon.png"
+                  src={iconN}
                 />
               </div>
             </button>

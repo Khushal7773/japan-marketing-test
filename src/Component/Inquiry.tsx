@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import icon12 from "../assets/icon12.png";
 
 const Inquiry: FunctionComponent = () => {
     return (
@@ -8,7 +9,7 @@ const Inquiry: FunctionComponent = () => {
                     <img
                       className={styles.menufilledIcon}
                       alt=""
-                      src="../../public/icon12.png"
+                      src={icon12}
                     />
                     <div className={styles.button5}>お気に入り</div>
                     <div className={styles.unstyledbuttonChild} />

@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../../StyleSheets/K10.module.css";
+import vector1 from "../../assets/vector1.png";
 
 const LowerCostSense: FunctionComponent = () => {
     return(
@@ -20,7 +21,7 @@ const LowerCostSense: FunctionComponent = () => {
                 <img
                   className={styles.vectorIcon1}
                   alt=""
-                  src="../../../public/vector1.png"
+                  src={vector1}
                 />
               </div>
             </div>

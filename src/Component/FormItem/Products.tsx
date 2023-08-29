@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../../StyleSheets/K10.module.css";
+import maskedIcon from "../../assets/maskedicon.png";
 
 const Products: FunctionComponent = () => {
     return (
@@ -14,7 +15,7 @@ const Products: FunctionComponent = () => {
                         <img
                           className={styles.maskedicon}
                           alt=""
-                          src="../../../public/maskedicon.png"
+                          src={maskedIcon}
                         />
                         <div className={styles.button}>
                           主要広告主の業種/商材を選ぶ

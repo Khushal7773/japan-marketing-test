@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import frame3662x from "../assets/frame-3662x.png";
 
 const EnBroker: FunctionComponent = () => {
     return (
@@ -7,7 +8,7 @@ const EnBroker: FunctionComponent = () => {
               <img
                 className={styles.frameChild}
                 alt=""
-                src="../../public/frame-3662x.png"
+                src={frame3662x}
               />
               <div className={styles.div10}>主なユーザー属性</div>
               <div className={styles.frameParent19}>

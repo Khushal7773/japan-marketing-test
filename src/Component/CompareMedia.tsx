@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import maskedIcon1 from "../assets/masked-icon.png";
 
 const CompareMedia: FunctionComponent = () => {
     return (
@@ -10,7 +11,7 @@ const CompareMedia: FunctionComponent = () => {
                 <img
                   className={styles.maskedicon}
                   alt=""
-                  src="../../public/masked-icon.png"
+                  src={maskedIcon1}
                 />
               </button>
             </div>

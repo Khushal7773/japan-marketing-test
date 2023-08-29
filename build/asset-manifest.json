@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/japan-marketing-test/static/css/main.613c0e0d.css",
+    "main.js": "/japan-marketing-test/static/js/main.7efa557c.js",
+    "static/js/787.2d643369.chunk.js": "/japan-marketing-test/static/js/787.2d643369.chunk.js",
+    "static/media/image2x.png": "/japan-marketing-test/static/media/image2x.2e52e1b801534e6f6ce8.png",
+    "static/media/frame-3662x.png": "/japan-marketing-test/static/media/frame-3662x.3c42ab6351b40229d2a3.png",
+    "index.html": "/japan-marketing-test/index.html",
+    "main.613c0e0d.css.map": "/japan-marketing-test/static/css/main.613c0e0d.css.map",
+    "main.7efa557c.js.map": "/japan-marketing-test/static/js/main.7efa557c.js.map",
+    "787.2d643369.chunk.js.map": "/japan-marketing-test/static/js/787.2d643369.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613c0e0d.css",
+    "static/js/main.7efa557c.js"
+  ]
+}

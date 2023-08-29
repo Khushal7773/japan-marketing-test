@@ -1,5 +1,19 @@
 import { FunctionComponent } from "react";
 import styles from "../StyleSheets/K10.module.css";
+import menufilled from "../assets/menufilled.png";
+import image12x from "../assets/image-12x.png";
+import icon from "../assets/icon.png";
+import icon1 from "../assets/icon1.png";
+import icon2 from "../assets/icon2.png";
+import icon3 from "../assets/icon3.png";
+import icon4 from "../assets/icon4.png";
+import icon5 from "../assets/icon5.png";
+import icon6 from "../assets/icon6.png";
+import icon7 from "../assets/icon7.png";
+import icon8 from "../assets/icon8.png";
+import icon9 from "../assets/icon9.png";
+import image112x from "../assets/image-112x.png";
+
 
 const SideBar: FunctionComponent = () => {
     return (
@@ -9,12 +23,12 @@ const SideBar: FunctionComponent = () => {
             <img
               className={styles.menufilledIcon}
               alt=""
-              src="../../public/menufilled.png"
+              src={menufilled}
             />
           </div>
         </div>
         <div className={styles.image1Wrapper}>
-          <img className={styles.image1Icon} alt="" src="../../public/image-12x.png" />
+          <img className={styles.image1Icon} alt="" src={image12x} />
         </div>
         <div className={styles.frameParent}>
           <div className={styles.frameGroup}>
@@ -24,14 +38,14 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon.png"
+                    src={icon}
                   />
                   <div className={styles.div}>ホーム</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </div>
               <nav className={styles.navigationItem}>
@@ -39,14 +53,14 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon2.png"
+                    src={icon2}
                   />
                   <div className={styles.div}>登録情報</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </nav>
               <nav className={styles.navigationItem}>
@@ -54,14 +68,14 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon3.png"
+                    src={icon3}
                   />
                   <div className={styles.div}>与件一覧</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </nav>
               <nav className={styles.navigationItem}>
@@ -69,14 +83,14 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon4.png"
+                    src={icon4}
                   />
                   <div className={styles.div}>担当者一覧</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </nav>
               <nav className={styles.navigationItem3}>
@@ -84,36 +98,36 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon5.png"
+                    src={icon5}
                   />
                   <div className={styles.div}>商談管理</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </nav>
               <div className={styles.navigationItem4}>
                 <div className={styles.rectangle} />
-                <img className={styles.icon10} alt="" src="../../public/icon1.png" />
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+                <img className={styles.icon10} alt="" src={icon1} />
+                {/* <img className={styles.vectorIcon} alt="" src="/vector.svg" /> */}
                 <b className={styles.b}>メディア一覧</b>
-                <img className={styles.vectorIcon} alt="" src="../../public/icon6.png" />
+                <img className={styles.vectorIcon} alt="" src={icon6} />
               </div>
               <nav className={styles.navigationItem3}>
                 <div className={styles.iconParent}>
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon7.png"
+                    src={icon7}
                   />
                   <div className={styles.div}>お気に入りメディア</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </nav>
               <div className={styles.navigationItem6}>
@@ -121,21 +135,21 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.menufilledIcon}
                     alt=""
-                    src="../../public/icon8.png"
+                    src={icon8}
                   />
                   <div className={styles.div}>お知らせ</div>
                 </div>
                 <img
                   className={styles.menufilledIcon}
                   alt=""
-                  src="../../public/icon1.png"
+                  src={icon1}
                 />
               </div>
             </div>
             <div className={styles.navigationItem7}>
-              <img className={styles.menufilledIcon} alt="" src="../../public/icon9.png" />
+              <img className={styles.menufilledIcon} alt="" src={icon9} />
               <div className={styles.div7}>ログアウト</div>
-              <img className={styles.icon17} alt="" src="../../public/icon1.png" />
+              <img className={styles.icon17} alt="" src={icon1} />
             </div>
           </div>
           <div className={styles.parent}>
@@ -147,7 +161,7 @@ const SideBar: FunctionComponent = () => {
                   <img
                     className={styles.image1Icon1}
                     alt=""
-                    src="../../public/image-112x.png"
+                    src={image112x}
                   />
                 </div>
               </div>
